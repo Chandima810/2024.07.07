@@ -1,0 +1,23 @@
+h1{
+   
+    background-color: lightskyblue;
+
+    margin-bottom: 200px;
+}
+
+body{
+
+    background-color: beige;
+
+}
+
+table {
+
+
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
