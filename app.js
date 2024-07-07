@@ -28,7 +28,6 @@ fetch("https://restcountries.com/v3.1/all")
 
 
 })
-
 function searchCountry(){
     let userInput = document.getElementById("txtInput").value;
 

@@ -9,19 +9,39 @@
 
 </head>
 <body>
+
     
     <marquee behavior="scroll" direction="left" class="text-bg-warning">Explore the world</marquee>
 
+    <div class="container m-1 bg-warning-subtle p-3">
+        <div class="d-flex" role="search">
+            <input id="txtInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" onclick="searchCountry()">Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <img class="img-thumbnail"  id="flagImg" src="" alt="flag">
+            <h1 id="name">Name</h1>
+            <p id="officialName">Official Name </p>
+            <p id="region">Region</p>
+            <p id="population">Population </p>
+        </div>
+    </div>
     <h1 class="text-center">Country Name and Flag Type</h1>
+    
 
 <div class="table-container">
     <table id="tblCountries" border="1">
     
     </table>
 </div>
+
+
     
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     
 </body>
+
 </html>
